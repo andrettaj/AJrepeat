@@ -11,33 +11,39 @@ if (topic === 'HTML') {
   } else {
     console.log('Please try again!');
   }
-  
-var topics = ['HTML', 'CSS', 'GIT','JavaScript '];
-for (var x=0; x < topics.length; x++) {
-    console.log(topics[x]);
+
+
+
+  var randomtopic = topic[Math.floor(Math.random() * topic.lenth)]
+var topic = ['HTML', 'CSS', 'GIT','JavaScript '];
+
+function listtopic() {
+   for (var x=0; x < topic.length; x++) {
+       console.log(topic[x]);
+ }
 }
-/*
 
-if (topic === 'HTML'){
-  console.log("Let's study HTML!");
+function selecttopic() {
 
-} else if (topic === 'CSS') {
+   if (randomtopic === 'HTML'){
+      console.log("Let's study HTML!");
+
+}  else if (randomtopic === 'CSS') {
    console.log("Let's study CSS!");
-} else if (topic === 'Git') {
+}  else if (randomtopic === 'Git') {
    console.log ("Let's study Git!");
-} else if (topic === 'Javascript') {
+}  else if (randomtopic === 'Javascript') {
   console.log ("Let's study Javascript!");
 
-}else  {
+}  else  {
 
-  console.log ('Please try again!');
+  console.log ("Please try again!");
 
+  }
 }
 
-*/
-
-
-
+listtopic()
+selecttopic()
 
 
 
