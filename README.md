@@ -45,8 +45,7 @@ MIT
 
 ## Features
 
-If your project has a lot of features, list them here.
-
+This project has notes to use for Git Hub,  Html, CSS, and Javascript.
 
 
 ## Tests
